@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="resultTextSize">62sp</dimen>
+    <dimen name="resultTextSize">50sp</dimen>
     <dimen name="buttonTextSize">35sp</dimen>
     <dimen name="operatorTextSize">30sp</dimen>
 
