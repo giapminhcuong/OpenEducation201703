@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    app:cardCornerRadius="5dp"
+                                    android:padding="5dp"
+                                    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_avatar"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/dp_55"
+            android:layout_height="@dimen/dp_55"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Zalo - Nhắn gửi yêu thương"/>
+        
+        <ImageView
+            android:layout_gravity="top"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/dp_10"
+            android:layout_height="@dimen/dp_20"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
